@@ -1,7 +1,9 @@
 from random import randint
+import sys, pygame
 from functions import *
 
-# create a gitnub repository
+# init pygame
+pygame.init()
 
 DNA = [A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z]
 DNA_search = input("which DNA strand do you want?" + "\n")
